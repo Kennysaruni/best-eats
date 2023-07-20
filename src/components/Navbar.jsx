@@ -45,7 +45,7 @@ const Navbar = () => {
 
             <div className={nav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300' : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
                 <AiOutlineClose onClick={() => setNav(!nav)}size={30} className='absolute right-4 top-4 cursor-pointer' />
-                <h2 className="text-2xl p-4 ">Best <span className="font-bold">Eats</span></h2>
+                <h2 className="text-2xl p-4 ">Best <span className="font-bold">Eat</span></h2>
                 <nav>
                     <ul className='flex flex-col p-4 text-gray-800'>
                         <li className='text-xl py-4 flex'><TbTruckDelivery size={25} className='mr-4' /> Orders</li>
